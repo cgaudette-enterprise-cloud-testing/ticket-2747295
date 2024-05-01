@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Output green dots
         run: |
-          for i in {1..15000}; do echo -e "\033[0;32m.\033[0m\c"; done
+          for i in {1..15000}; do echo -e "test"; done
           echo
 
       # Runs a set of commands using the runners shell
